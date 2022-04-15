@@ -1,0 +1,36 @@
+//语法：
+// 路径变量插值
+// @images:"./images/";
+// .选择器{
+//     background: url("@{images}/i.jpg") no -repeat 0 0;
+// }
+
+@url:"../images";
+
+
+//语法：
+// 属性变量插值
+// @property:color;
+// .选择器{
+//     @{property}:#0ee;
+//     background-@{property}:#999;
+// }
+@bgsize: background-size;
+
+
+
+@b:box;
+
+.@{b}{
+    width: 300px;
+    height: 300px;
+    border: 6px;
+    text-align: center;
+    background: url("@{url}/moon.jpg");
+    // background-size: cover;
+    @{bgsize}:cover; //同上效果
+    color: greenyellow;
+    margin: auto;
+    
+}
+

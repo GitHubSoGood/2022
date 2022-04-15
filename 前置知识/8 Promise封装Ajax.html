@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let api = {
+
+         
+
+
+        //get请求
+        get(){
+            return new Promise((resolve,reject)=>{
+                //创建ajax
+                let xhr = null;
+                if(window.XMLHttpRequest){
+                    xhr = new XMLHttpRequest();
+                }else{
+                    //兼容低版本IE
+                    xhr = new ActiveXObject('Microsoft.XMLHTTP');
+                }
+                //监听ajax对象状态的变化
+                xhr.onreadystatechange = function(){
+                    if(this.readyState == 4 && this.status == 200){
+                        //成功凝固结果
+                        resolve(this.responseText);
+                    }
+                }
+
+                
+            
+                let url = 'http://api.tianapi.com/networkhot/index?key=311bfbe60e2205bdb3b7661c7705ef17';
+                //建立服务器连接
+                xhr.open('GET',url,true);
+                xhr.send(null);
+            })
+          
+        }
+
+       
+    };
+    api.get().then(result =>{
+                //console.log(result);
+                // let data = JSON.parse(result);
+                // console.log(data);
+
+                //Hot
+                
+                for(let i = 0;i<result.length;i++){
+                    document.writeln(result[i]);
+                    
+                }
+                document.writeln("\n");
+               
+               
+            }).catch(err => {
+                console.log(err);
+            })
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //定义类Animals
+        class Animals{
+            //构造器
+            constructor(name ,color){
+                this.name = name;
+                this.color = color;
+            }
+            //方法
+            getInfo(){
+                return this.name +' '+this.color;
+            }
+            
+
+            
+        }
+        let dog = new Animals('小黑','brown');
+        console.log(dog.getInfo());
+        
+////////////////////////////////////////////////////////
+
+        //父类 构造器
+    class Parent{
+        constructor(x,y){
+            this.x = x;
+            this.y = y;
+        }
+        xy(){
+             return this.x * this.y;
+            //console.log(this.x * this.y);
+        }
+    }
+    
+    /////使用extends关键字来继承父类Animals
+    class Child extends Parent{
+        //重写父类构造器 增加一个参数name
+        constructor(x,y,name){
+
+            super(x,y);
+            this.name = name;
+        }
+
+        
+        //重写父类的方法
+        // xy(){
+        //     console.log('子类重写父类方法');
+        // }
+
+        getName(){
+            console.log("扩展自身方法");
+        }
+
+    }
+
+    //子类实例化
+    let c = new Child(3,3);
+    console.log( c.xy(),'hello world');   
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

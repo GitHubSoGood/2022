@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*
+        ES6对象新特性扩展
+            对象属性的简写
+            对象方法的简写
+            动态键名
+        */
+
+        let color = 'white';
+
+        let key = 'weight';
+
+        var animals = {
+            color, //对象属性和变量名一样就可以简写 等价于 color:color,
+            name:'duck',
+
+            getName:function(){
+                console.log(this.name);
+            },
+
+            //省略掉了 冒号和function
+            getColor(){
+                console.log(this.name+"'s color is "+this.color);
+            },
+
+            //动态键名
+            [key]:'100KG'
+        };
+
+        //console.log(animals.color);
+        animals.getColor();
+        console.log(animals.weight);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

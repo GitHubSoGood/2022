@@ -1,0 +1,10 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 6px;
+  text-align: center;
+  background: url("../images/moon.jpg");
+  background-size: cover;
+  color: greenyellow;
+  margin: auto;
+}

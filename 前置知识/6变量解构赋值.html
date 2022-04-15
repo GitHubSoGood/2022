@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //1。数组解构赋值
+        var animals = ['bird','fly','frog'];
+        let ch1 = animals[0];
+        let ch2 = animals[1];
+        let ch3 = animals[2];
+        console.log(ch1,ch2,ch3);
+
+        let [p1,p2,p3,p4] = ['kenvin','mark',1001,{name:'johon',age:10}]; 
+        console.log(p1,p2,p3,p4);
+        console.log(typeof(p1),typeof(p2),typeof(p3),typeof(p4));//p4是个对象其他都是数组
+
+
+        //2.对象解构赋值
+        let {color:c,weight:w}={weight:'3kg',color:'蓝色'};
+        console.log(c);
+        console.log(w);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

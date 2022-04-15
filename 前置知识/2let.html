@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let</title>
+</head>
+<body>
+    <script>
+        let price = 100;
+        console.log(price);
+        if(true){
+            //let块级作用域，作用域就是变量的有效范围
+            //let的作用域只在大括号内部，外部访问不到
+            let total = 200;
+        }
+        //console.log(total);//total is not defined
+
+    ///////////////////////////////////////////////////////////////////////
+        for(var i = 0;i < 10;i++){
+            console.log('内部',i);
+        }
+       // console.log('外部',i);//使用var声明变量，没报语法错误，但有bug，逻辑错误
+
+    ///////////////////////////////////////////////////////////////////////
+        function func(){
+            let i = 1.1; //i的作用域是整个函数体
+            if(i){
+                let x = 1.2;//x的作用域是if语句体
+            }
+            console.log(i);
+            //console.log(x);//x is not defined
+        }
+        func();
+
+    ///////////////////////////////////////////////////////////////////////
+        let p = 2.2;
+        console.log(p);
+        //let p = 3.3; //Identifier 'p' has already been declared 不能重复声明
+        console.log(p);
+      
+        ///////////////////////////////////////////////////////////////////////
+        let p2 = 2.6;
+        console.log(p2);
+        p2 = 3.6; //可以重新赋值
+        console.log(p2);
+
+    ///////////////////////////////////////////////////////////////////////
+        let str = 1001;
+        console.log(str,typeof(str));
+        str = '1001';//值的类型不一样也可以重新赋值，弱类型语言
+        console.log(str,typeof(str));
+    //let特性是可以任意赋值不能重新声明；是块级作用域
+    ///////////////////////////////////////////////////////////////////////
+
+
+    var x=10;
+    var x = 1000;//var允许重复声明
+    console.log(x);
+    </script>
+</body>
+</html>

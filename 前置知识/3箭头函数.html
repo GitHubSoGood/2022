@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //ES5函数
+        var fun = function(){
+            console.log('Do you love me?');
+        }
+        fun();
+
+        //ES6箭头函数
+        let f1 = () => {
+            console.log('hello');
+        }
+        f1();
+
+        /////////////////////////////////////////////////////////////
+
+        //只有一个参数,圆括号可以省略掉 let ch1 = a =>
+        let ch1 = (a) => {
+            console.log(a);
+        }
+        ch1(100);
+        
+        let ch2 = (x,y) => {
+            console.log(x*y);
+        }
+        ch2(3,3);
+
+        /////////////////////////////////////////////////////////////
+
+        //如果函数体只有一条返回语句，则函数体的花括号和return语句可以省略掉
+        // let w1 = () => {
+        //     return 10;
+        // }
+        // let w  = w1();
+        // console.log(w);
+
+        //同上效果
+        //w1是个函数；而w是个变量
+        let w1 = () => 10;
+        let w = w1();
+        console.log(w);
+        console.log(typeof(w1));
+        console.log(typeof(w));
+
+
+
+        /////////////////////////////////////////////////////////////
+        //当函数体内部返回有一个对象
+        let z = () => {
+            return {
+                x:6,
+                y:18
+            }
+        };
+        let res = z();
+        console.log(res.x);
+        console.log(res.y);
+        
+        let zz = () => ({x:66,y:188})
+        let re = zz();
+        console.log(re.x);
+        console.log(re.y);
+        
+    </script>
+</body>
+</html>

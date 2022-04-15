@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //arguments:函数的实参对象
+        function cost(){
+            var total = 0;
+            for(var i = 0;i<arguments[i];i++){
+                total += arguments[i];
+            }
+            return total;
+        }
+        var result = cost(10,30,60);
+        console.log(result);
+
+
+
+        /////////////////////////////////////////////////
+        //ES6中rest参数
+        function sum(...params){
+            // console.log(params);
+            let total = 0;
+            //params是数组的形式，就可以使用forEach操作，而v就是数组中的每个元素
+            params.forEach(v => {
+                total += v;
+            })
+            return total;
+        }
+        let res = sum(3,5,11);
+        console.log(res);
+
+    /////////////////////////////////////////////////
+    var animals = ['小鱼','青蛙','小虾'];
+    var other = ['老鹰','青蛙','泥鳅'];
+    //ES5
+    // for(var i = 0;i< other.length;i++){
+    //     animals.push(other[i]);
+    // }
+
+    // console.log(animals);
+
+    //ES6
+    animals.push(...other);
+    console.log(animals);//同上效果
+
+
+
+    </script>
+</body>
+</html>
