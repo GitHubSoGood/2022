@@ -1,0 +1,36 @@
+<!-- 声明文档类型 ，告诉浏览器用html5规范进行解析，必须在第一行-->
+ <!DOCTYPE html>
+ <!-- html文档从这里开始 -->
+<html lang="en">  <!-- lang="en" 告诉搜索引擎此页面主要使用的语言类型是英语。
+     搜索引擎不会去判断整个页面，仅是这个设置告诉它，提升搜索结果排名。
+中文为lang="zh"-->
+   
+
+<!-- 文档的头部 -->
+<head>
+    <!-- 设置网页编码 让网页中的文字正常显示 -->
+    <meta charset="UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 这个页面的标题 另，让搜索引擎更易抓取-->
+    <title>Document</title>
+</head>
+
+
+<!-- 文档的主体 在浏览器可见的内容-->
+<body>
+    
+</body>
+
+
+<!-- html文档从这里结束-->
+</html>
+
+
+标签：
+    单标签，只有一个标签，例如，“ <meta>”
+    双标签，由一对标签构成，例如，“<body> </body>”。标签要关闭不能省略斜杠。</ >
+    
