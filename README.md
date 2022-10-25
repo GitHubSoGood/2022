@@ -2,16 +2,17 @@ html
 =========================
 
 * 作者：GitHubSoGood
-* blog: http://t5fire.com
+* blog: http://github.com
 
 关于
 ------------------------
 
     之前在。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
 
+	ooooooooooooooooooooooooooo
     支付宝扫码赞助:
 
-    .. image:: images/donate-alipay.png
+    .. image:: images/alipay.jpg
 
 
 反馈
