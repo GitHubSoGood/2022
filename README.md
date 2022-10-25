@@ -12,7 +12,7 @@ html
 	ooooooooooooooooooooooooooo
     赞助:
 	
-	![image jpg] https://github.com/GitHubSoGood/2022/blob/master/images/alipay.jpg
+	![](https://github.com/GitHubSoGood/2022/blob/master/images/alipay.jpg)
 
 反馈
 ------------------------
