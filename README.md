@@ -11,7 +11,7 @@ html
 
 	ooooooooooooooooooooooooooo
     支付宝扫码赞助:
-		<img src=" 		![Image text](https://github.com/GitHubSoGood/2022/blob/master/html/images/alipay.jpg)
+	图片: [Markdown基本语法一 · 文本及字体颜色](https://github.com/GitHubSoGood/2022/blob/master/html/images/alipay.jpg)
 ">
 反馈
 ------------------------
