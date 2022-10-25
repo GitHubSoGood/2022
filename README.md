@@ -12,7 +12,7 @@ html
 	ooooooooooooooooooooooooooo
     赞助:
 	
-	![image](/images/alipay.jpg)
+	![image](\images\alipay.jpg)
 
 
 反馈
