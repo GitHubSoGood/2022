@@ -12,7 +12,7 @@ html
 	ooooooooooooooooooooooooooo
     支付宝扫码赞助:
 
-    .. image:: html/images/alipay.jpg
+    .. image:: /html/images/alipay.jpg
 
 
 反馈
