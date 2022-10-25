@@ -10,8 +10,9 @@ html
     之前在。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
 
 	ooooooooooooooooooooooooooo
-    支付宝扫码赞助:
-		.. image:: images/alipay.jpg
+    赞助:
+		链接:  ![漫画](https://upload-images.jianshu.io/upload_images/15499869-09f08a7a56adadc4.jpg?imageMogr2/auto-orient/strip|imageView2/2/format/webp/w/220)
+
 反馈
 ------------------------
 `反馈 <hello@qq.com>`_
