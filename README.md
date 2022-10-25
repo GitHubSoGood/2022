@@ -11,9 +11,9 @@ html
 
 	ooooooooooooooooooooooooooo
     赞助:
-		    <div>
-        <img src="https://github.com/GitHubSoGood/2022/blob/master/images/alipay.jpg" alt="">
-    </div>
+	
+	![image](/images/alipay.jpg)
+
 
 反馈
 ------------------------
