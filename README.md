@@ -11,8 +11,8 @@ html
 
 	ooooooooooooooooooooooooooo
     支付宝扫码赞助:
-		![Image text](https://github.com/GitHubSoGood/2022/blob/master/html/images/alipay.jpg)
-
+		<img src=" 		![Image text](https://github.com/GitHubSoGood/2022/blob/master/html/images/alipay.jpg)
+">
 反馈
 ------------------------
 `反馈 <hello@qq.com>`_
