@@ -11,7 +11,9 @@ html
 
 	ooooooooooooooooooooooooooo
     赞助:
-		链接:  ![漫画](https://upload-images.jianshu.io/upload_images/15499869-09f08a7a56adadc4.jpg?imageMogr2/auto-orient/strip|imageView2/2/format/webp/w/220)
+		    <div>
+        <img src="https://github.com/GitHubSoGood/2022/blob/master/images/alipay.jpg" alt="">
+    </div>
 
 反馈
 ------------------------
