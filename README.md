@@ -12,7 +12,7 @@ html
 	ooooooooooooooooooooooooooo
     赞助:
 	
-![](https://github.com/GitHubSoGood/2022/blob/master/images/nodejs.png)
+![](https://github.com/GitHubSoGood/2022/blob/master/images/nodejs.jpg)
 
 反馈
 ------------------------
