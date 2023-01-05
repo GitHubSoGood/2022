@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    form标签创建一个表单，会将里面的内容一起发送服务器，结构类似于表格。
+    表单中的其他元素都要包含在form标签中
+    form元素属性：
+        <!-- 1.必须，action指定表单发送的地址（服务器地址）
+        2.method：表单发送至服务器的方法 get/post
+        3.name：为当前表单定义一个独一无二的名称，控制表单与后台直接的关系
+        ////
+        4.novalidate:设置数据提交时不进行验证，通常不会用到
+        5.target:设置打开方式，通常不会用到 -->
+        
+
+        <form action="https://www.51zxw.net" method="get" name="51zxw" ">
+            <input type="text" name="inname" id="inid" value="请输入.."/>
+            <input type="submit" value="发送" />
+        </form>
+</body>
+</html>
