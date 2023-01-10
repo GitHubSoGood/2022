@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1/temp.php" method="post" >
+        <!-- 时间输入框的type属性值可选time/datetime/datetime-local/date/month/week -->
+        <input type="time" name="t"/>
+        <input type="datetime-local" name="datetime" />
+
+        <br>
+        <input type="color" name="colors"/>
+
+        <br>
+        accept上传文件的类型，在这里过滤了图片格式；它有很多属性值可选。请根据实际需要，百度一下“ html accept”
+        multiple可按住Ctrl键同时选择多张图片
+
+        <input type="file" name="files" accept="image/jpeg" multiple/>
+        <input type="submit" />
+    </form>
+</body>
+</html>

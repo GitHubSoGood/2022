@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1/temp.php" method="post" />
+        <!--若某商品6个为一套，最多买10套， value默认值6 最小值6 最大值60 步长6-->
+        <input type="number" name="num" value="6" min="6" max="60" step="6"/>
+        
+        
+        <!-- 滑动条range一样
+        value的默认值为10(value-1=10，否则默认值为11) -->
+        <input type="range" name="num2" value="10" min="1" max="100" step=value-1>
+
+        <input type="submit" />
+    </form>
+</body>
+</html>

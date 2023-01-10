@@ -1,7 +1,7 @@
 <?php 
 
-    // 发现在真实服务器环境下无法接收数据，被 nginx和chrome拦截掉
-
+    // 发现在真实服务器环境下无法接收数据(本地的windows可以)，被 nginx和chrome拦截掉
+    //貌似Apache可以哦
     $localhost1 = "in1.html";
     $localhost2 = "in2.html";
     $userName = $_POST['user'];

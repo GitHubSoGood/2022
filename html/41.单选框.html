@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="http://127.0.0.1/temp.php" method="post" >
+
+        <!-- 单选框的name属性值要相同。 
+        checked默认选中的
+        radio中的value值是实际发送给服务器的数据 给用户看的数据是input外最右边数据-->
+        <input type="radio" name="radiosex" value="male" />男
+
+        <input type="radio" name="radiosex" value="nv" checked />女
+
+        <input type="radio" name="radiosex" value="妖" />妖
+
+        <input type="submit" />
+    </form>
+
+</body>
+</html>

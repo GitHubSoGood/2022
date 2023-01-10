@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost/temp.php" method="post">
+        <!-- 只能输入a或b或c -->
+        <!-- 输入：<input type="text" name="letter" pattern="[a|b|c]" />   -->
+        <br>
+        <!-- 只能输入11位电话号码 注意不是number而是text-->
+        <!-- 百度一下 “pattern 手机号码” 获取更多 -->
+        输入手机号码：<input type="text" name="number-11" pattern="[0-9]{11}" />
+
+        <!-- required不填写不能提交 
+        placeholder提示信息
+        -->
+        
+        <input type="submit" /> 
+    </form>
+</body>
+</html>
