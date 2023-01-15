@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    网页编码：指网页中特定的字符编码
+        常用的字符编码：
+            1.UTF-8万国码，几乎支持所有的语言。推荐使用的编码。html网页默认为UTF-8
+            2.GBK、GB2312(GBK是GB2312的升级版):汉字内码扩展，GBK兼容gb2312,中文编码。
+        网页需正确设置编码，才能在浏览器中正常显示
+        网页编码分成两部分
+            1.头部设置的编码“   <meta charset="UTF-8">”
+            2.网页本身的编码
+            把以上两部分的编码设置成一致，就可以处理乱码。
+            
+            
+            尝试以下：
+                1.把文件在VSCode中打开并把修改为<meta charset="UTF-8">
+                2.Ctrl+Shift+P 搜索>Settings 选择 “首选项 打开用户设置 
+                搜"encoding" 选择为UTF-8即可。
+
+                3.重复以上步骤一步骤二并把它们的内容改为<meta charset="GBK/GB2312"> 、 "GBK/GB2312"
+            
+    
+</body>
+</html>

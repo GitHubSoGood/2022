@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    button按钮
+        1.type属性：可以设置三个值，submit/reset/button,含义和input按钮一样
+        2.name/value/disable属性，与input的用法一样
+        3.button标签是双标签，可使用css进行样式设计(图片按钮)
+        4.实际工作中button按钮主要用于启动js程序(虽然它可以提交)
+    注意：在表单中应优先使用input按钮，其他地方可使用button按钮(因各个浏览器对button的支持不一样)
+    <form action="http://localhost/temp.php" method="post">
+        <input type="text" name="ab" />
+        <input type="button" value="button普通按钮" />
+        <input type="submit"  value="提交按钮" />
+        <input type="reset" value="重置按钮" />
+
+        <button type="submit">提交</button>
+        <button type="reset">重置</button>
+        <button type="button">普通</button>
+        
+
+        <!-- ////////图片提交按钮 -->
+        <button type="submit" style="border-radius: 50%; overflow: hidden; border: none;
+        height: 50px; width: 50px; padding: 0;">
+            <img src="../images/github.ico" width="50px" height="50px">
+        </button>
+    </form>
+</body>
+</html>

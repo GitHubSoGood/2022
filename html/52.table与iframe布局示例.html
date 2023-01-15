@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 0; ">
+    <!-- 制作表格要领：
+        1.制作表格一定要加border：solid 1px和宽高 width/height(table的样式中)
+        2.tr一定要加颜色(方便看颜色)
+        3.td一定要加内容(可以是数字，字符必须保持一致，这样才会把完美的撑开)
+        4.colspan合并的是横向的行
+        5.rowspan合并的是竖着的列
+ -->
+
+
+ <table style="background-color: orange; width: 100%; height: 630px;" >
+    <tr> <td style="text-align: center; background-color: green; height: 10%;" colspan="3"> <h1>2345网址导航</h1></td></tr>
+        <tr>
+            <td style="background: gray; width: 20%;">
+                <a href="http://www.bing.com" target="myiframe"> <img src="../images/51zxw/bing.gif" alt=""> </a>
+                <br>
+                <a href="http://www.gov.cn" target="myiframe"> <img src="../images/51zxw/gov.jpg" style="width: 160px; height: 80px;" alt=""> </a>
+                <br>
+                <a href="http://www.sina.com.cn" target="myiframe"> <img src="../images/51zxw/sougou.gif" style="width: 160px; height:80px;" alt=""> </a>
+                <br>
+                <a href="http://www.ifeng.com" target="myiframe"> <img src="../images/51zxw/fh.gif" alt=""> </a>
+            </td>
+            <td colspan="2">
+                <iframe src="http://www.gov.cn" name="myiframe" width="100%" height="100%" frameborder="0"></iframe>
+            </td>
+        </tr>
+    <tr> <td colspan="3" style=" text-align: center; font-size: larger; background-color: blue;height: 10%;">关于本站/情链接/IPC备*号-1/联系方式/加入我们</td></tr>
+ </table>
+
+</body>
+</html>
