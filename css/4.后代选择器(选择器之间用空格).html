@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 故名思意,后代选择器，选择器之间有空格 */
+        .font{
+            font-size: 30px;
+        }
+        
+       
+        /* 爷孙关系 */
+        .grade1 .gs{
+            color: red;
+        }
+         /* 爷孙关系 */
+        .grade2 .gs{
+            color: rgb(0, 255, 0);
+        }
+
+        /* 父子关系 */
+        .class3 .lb{
+            color: yellow;
+        }
+        
+        /* 选择器可以是类选择器、标签选择器、和普通标签的集合(这里li是个普通标签) */
+        .class6 li{
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!--快捷键 div>ul>li*4 -->
+    <div class="font">
+     
+       
+      <div class="grade1">
+        <ul class="class1">
+            <li class="xl">薛宁</li>
+            <li class="gs">葛山</li>
+            <li class="zhao2">赵2</li>
+            <li class="wang2">王2</li>
+        </ul>
+      </div>
+      <div class="grade2">
+        <ul class="class3">
+            <li class="xl">薛宁</li>
+            <li class="gs">葛山</li>
+            <li class="cp">陈佩</li>
+            <li class="lb">李白</li>
+        </ul>
+      </div>
+      <div class="grade3">
+        <ul class="class6">
+            <li class="xl">芙蓉</li>
+            <li class="gs">习掣</li>
+            <li class="lb">周磊</li>
+        </ul>
+      </div>
+       
+    </div>
+    <hr><br>
+</body>
+</html>

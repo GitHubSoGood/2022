@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: green;
+            padding: 0;
+            margin: 0;
+            /* 让其不超出父容器 */
+            overflow: auto;
+           /* 去掉无序列表小圆点 */
+            /* list-style-type: none;
+
+            /* 去掉a标签下划线 */
+            text-decoration: none;
+        }
+
+
+/*         
+        上面的通用选择器去掉了有序无序列表的默认空格,这里使用类选择器中的padding-left来手动设置 */
+    .test{
+        padding-left: 40px;
+    }
+
+
+    body{
+        border: 2px solid red;
+        width: 100%;
+        height: 1000px;
+    }
+
+    </style>
+    
+</head>
+<body>
+    
+    <p>
+        通用选择器，影响页面中的所有标签。<br>
+        一般做初始化页面工作，清除内外边距等。
+    </p>
+    <strong>通用选择器</strong><br>
+
+    <span>通用选择器</span> <br>
+    <div>通用选择器</div>
+
+
+
+    <a href="http://sina.com.cn">新浪</a>
+
+
+
+    
+    <ul class="test">
+        <li>数码</li>
+        <li>化妆品</li>
+    </ul>
+
+
+    <hr>
+
+ 
+    
+</body>
+</html>

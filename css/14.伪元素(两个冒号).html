@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 第一个字 */
+        div::first-letter{
+            color: green;
+        }
+        /* 第一个行 */
+        div::first-line{
+            color: blue;
+        }
+
+
+    /* div span::before{
+        content: "http:baidu.com";
+    } */
+    div span::after{
+        content: "http:baidu.com";
+    }
+
+
+    </style>
+</head>
+<body>
+    <div>早上好早上好早上好早上好早上好
+        早上好早上好早上好早上好
+        早上好早上好早上好
+        早上好早上好早上好早上好
+        早上好早上好早上好
+    </div>
+    <hr>
+
+    <div>
+        <span>
+            百度
+        </span>
+    </div>
+</body>
+</html>

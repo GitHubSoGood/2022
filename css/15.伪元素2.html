@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 在其之前添加元素 */
+        div::before{
+            content: "OpenAI研发的人工智能聊天机器人";
+        }
+
+        /* 在其之后添加元素 */
+        h3::after{
+            content: "微信是一种生活方式";
+            content: "../";
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        ChatGPT
+    </div>
+    <h3>WeChat</h3>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         h3{
+            background-color: gray;
+            width: 20%;
+
+            /* 右对齐 */
+            text-align: right;
+            /* 居中 */
+            /* text-align: center; */
+        } 
+         
+
+
+        /* //////////// */
+        div{
+            width: 200px;
+            background-color: yellow;
+            /* justify和width配合实现两端对其 */
+            text-align: justify;
+           
+        }
+
+
+        .a{
+            font-size: 40px;
+        }
+        .b{
+            font-size: 20px;
+
+            /* 对其下标 */
+            /* vertical-align: sub; */
+
+            /* 对其上标 */
+            /* vertical-align: super; */
+
+            /* 顶部对其 */
+            vertical-align: top;
+
+            /* 底部对其 */
+            /* vertical-align: bottom; */
+
+
+            /* 居中对齐 */
+            /* vertical-align: middle; */
+
+        }
+    </style>
+</head>
+<body>
+    <h3>右排列方式</h3>
+
+    <hr><br>
+    
+    <div>文字两端对其<p style="display: inline-block; width:100%;"></p></div>
+    <!-- <div> 19.9<sub>元</sub></div>
+    <div> 19.9<sup>元</sup></div> -->
+<br>
+
+    <div> <span class="a">88.9</span> <span class="b">元</span></div>
+</body>
+</html>

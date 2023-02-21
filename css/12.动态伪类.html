@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 移动到上面时的状态 */
+        div:hover{
+            color: aqua;
+            font-size: 30px;
+        }
+
+        /* 点击未松开时的状态 */
+        div:active{
+            color: blue;
+        }
+        
+
+        /* 点击输入框的状态 */
+        input:focus{
+            color: greenyellow;
+            width: 300px;
+            height: 50px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 动态伪类能适用于任何元素 -->
+    <div>耍把戏</div>
+
+    <input type="text" value="">
+</body>
+</html>
